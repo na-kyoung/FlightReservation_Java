@@ -44,7 +44,7 @@
 <br />
 
 ## 데이터베이스
-<img width="60%" alt="FlightDB" src="https://github.com/na-kyoung/FlightReservation_Java/assets/137421820/779ece4f-b723-4524-90dd-b3a49c58b110">
+<img width="80%" alt="FlightDB" src="https://github.com/na-kyoung/FlightReservation_Java/assets/137421820/779ece4f-b723-4524-90dd-b3a49c58b110">
 
 <br />
 
