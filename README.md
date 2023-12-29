@@ -47,6 +47,19 @@
 <img width="80%" alt="FlightDB" src="https://github.com/na-kyoung/FlightReservation_Java/assets/137421820/779ece4f-b723-4524-90dd-b3a49c58b110">
 
 <br />
+<br />
 
 ## 결과
+![6](https://github.com/na-kyoung/FlightReservation_Java/assets/137421820/17678ffe-12fe-4ffe-af70-524775ad64e8)
 
+![7](https://github.com/na-kyoung/FlightReservation_Java/assets/137421820/c7cdb841-5804-4c8f-bd02-93695872650a)
+
+![8](https://github.com/na-kyoung/FlightReservation_Java/assets/137421820/4ce7e435-09a0-4a65-afef-ec8cec0a49c7)
+
+![9](https://github.com/na-kyoung/FlightReservation_Java/assets/137421820/331806fe-b65a-4f54-82f2-75934ea2afb9)
+
+![10](https://github.com/na-kyoung/FlightReservation_Java/assets/137421820/211e9fd9-265f-4ba8-8234-715d51ed4f66)
+
+![11](https://github.com/na-kyoung/FlightReservation_Java/assets/137421820/7b5f359c-897a-4cbf-b9a8-97c24b483019)
+
+![12](https://github.com/na-kyoung/FlightReservation_Java/assets/137421820/89f7dd78-3a30-42fe-941c-9ef76f6bca1f)
