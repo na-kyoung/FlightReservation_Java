@@ -175,7 +175,7 @@ public class ReservationDAO {
     	// SQL문
     	String SQL = "DELETE FROM RESERVATION "
     			+ "WHERE RESERVATION_ID = ? "
-    			+ "AND ACCOUNT_ID = ( "
+    			+ "AND ACCOUNT_ID in ( "
     			+ "SELECT ACCOUNT_ID "
     			+ "FROM ACCOUNT "
     			+ "WHERE ACCOUNT_PWD = ?)";
