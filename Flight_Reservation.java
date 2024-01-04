@@ -47,7 +47,7 @@ public class Flight_Reservation {
 			
 			// 메뉴 번호에 따라 서비스 실행
 			switch(menu) {
-			case 1: // 회원가입
+			case 1 -> { // 회원가입
 				System.out.print("✈︎ 아이디 : ");
 				id = scan.next(); // 아이디 입력
 				System.out.print("✈︎ 비밀번호 : ");
@@ -58,8 +58,8 @@ public class Flight_Reservation {
 				Account Ajoin = new Account(id, pwd); // 생성자로 정보 출력
 				Ajoin.Join(id, pwd); // DB 회원가입
 				
-				break;
-			case 2: // 로그인/로그아웃
+			}
+			case 2 -> { // 로그인/로그아웃
 				if(accountId == null) { // 로그인
 					System.out.print("✈︎ 아이디 : ");
 					id = scan.next(); // 아이디 입력
@@ -81,8 +81,8 @@ public class Flight_Reservation {
 					accountPwd = null;
 					System.out.println("✈︎ 로그아웃 완료");
 				}
-				break;
-			case 3: // 항공편 검색
+			}
+			case 3 -> { // 항공편 검색
 				System.out.print("✈︎ 출발 국가 : ");
 				start = scan.next(); // 출발 국가 입력
 				System.out.print("✈︎ 도착 국가 : ");
@@ -107,8 +107,8 @@ public class Flight_Reservation {
 //						System.out.println(flist.get(i).getFlight_id() + "\t" + fdate + "\t" + flist.get(i).getFlight_time() + "\t" + flist.get(i).getFlight_price() + "\t" + flist.get(i).getStart_nation_id() + "\t" + flist.get(i).getEnd_nation_id());
 //					}
 				}
-				break;
-			case 4: // 예약
+			}
+			case 4 -> { // 예약
 				if(accountId == null) { // 로그인 X
 					System.out.println("✈︎ 로그인 후 이용할 수 있습니다.");
 				}
@@ -139,8 +139,8 @@ public class Flight_Reservation {
 					}
 					else { System.out.println("✈︎ 감사합니다."); } // no (예약 안함)
 				}
-				break;
-			case 5: // 예약 내역 확인
+			}
+			case 5 -> { // 예약 내역 확인
 				if(accountId == null) { // 로그인 X
 					System.out.println("✈︎ 로그인 후 이용할 수 있습니다.");
 				}
@@ -160,8 +160,8 @@ public class Flight_Reservation {
 						}
 					}	
 				}
-				break;
-			case 6: // 예약 취소
+			}
+			case 6 -> { // 예약 취소
 				if(accountId == null) { // 로그인 X
 					System.out.println("로그인 후 이용할 수 있습니다.");
 				}
@@ -192,15 +192,13 @@ public class Flight_Reservation {
 					}
 					else { System.out.println("✈︎ 감사합니다."); } // no (예약 취소 안함)
 				}
-				break;
-			case 7: // 종료
+			}
+			case 7 -> { // 종료
 				System.out.println("✈︎ 프로그램을 종료합니다.");
 				cnd = false;
-				break;
-			default:
-				System.out.println("✈︎ 해당 번호는 메뉴가 존재하지 않습니다.");
-				break;
 			}
+			default -> System.out.println("✈︎ 해당 번호는 메뉴가 존재하지 않습니다.");
+			} // switch문
 		}while(cnd);
 
 	}
